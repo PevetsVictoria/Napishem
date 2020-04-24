@@ -273,7 +273,7 @@ main {
 .article-list-disc {
 
   list-style-type:disc;
-  list-style-position: inside; 
+  list-style-position: inside;
 }
 
 .article-list-square {
@@ -292,17 +292,16 @@ main {
 figure {
 
   text-align:center;
+  margin:1em 0;
 }
 
-.diagram-central-bank-second {
+.sizing2-for-image, .sizing3-for-image {
 
   display:none;
 }
 
-.diagram-central-bank-third {
 
-  display:none;
-}
+
 #partner_form_napishem20 {
 
     width:240px;

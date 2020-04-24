@@ -22,6 +22,11 @@
         width:500px;
     }
 
+    .breadcrumbs li:last-child {
+
+        display:none;
+    }
+
     #partner_form_napishem {
 
           display:none;
@@ -119,11 +124,6 @@
         width:100%;
     }
 
-    .breadcrumbs li:last-child {
-
-        display:none;
-    }
-
     .breadcrumbs li:nth-child(2) a {
 
         color:#7875D0;
@@ -208,12 +208,11 @@
         padding-right:30px;
     }
 
-    .diagram-central-bank-second {
+    .sizing2-for-image {
 
       display:inline-block;
     }
-
-    .diagram-central-bank-first {
+    .sizing1-for-image {
 
       display:none;
     }
@@ -316,16 +315,14 @@
 }
 @media screen and (max-width:600px) {
 
-  .diagram-central-bank-second {
-
-    display:none;;
-  }
-
-  .diagram-central-bank-third {
+  .sizing3-for-image {
 
     display:inline-block;
   }
+  .sizing2-for-image {
 
+    display:none;
+  }
     footer {
 
         flex-direction:column;
