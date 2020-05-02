@@ -43,6 +43,13 @@ body {
     text-align:center;
 }
 
+div.logo a, div.logo-row a {
+
+  text-decoration:none;
+  color:#303030;
+
+}
+
 .search {
 
     align-self:center;
