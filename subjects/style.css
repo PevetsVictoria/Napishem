@@ -265,10 +265,9 @@ td.gsib_b {
 
 .alphabet-article p {
 
-    max-height:14px;
     max-width:100%;
     margin-bottom:10px;
-    overflow:hidden;
+    line-height:20px;
 }
 
 
@@ -330,4 +329,3 @@ footer div:last-child {
 
     color:#4587CA;
 }
-
