@@ -1,0 +1,17 @@
+User-agent: Yandex
+Disallow: 
+User-agent: Googlebot
+Disallow: 
+User-agent: StackRambler
+Disallow: 
+User-agent: Aport
+Disallow: 
+User-agent: Slurp
+Disallow: 
+User-agent: MSNBot
+Disallow: 
+User-agent: ia_archiver
+Disallow: 
+User-agent: * 
+Disallow: 
+Sitemap: http://articulus.pro/sitemap.xml
