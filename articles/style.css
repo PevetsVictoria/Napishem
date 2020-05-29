@@ -277,6 +277,11 @@ main {
   margin-top:10px;
 }
 
+div.paragraph-of-article {
+
+  text-indent:0;
+}
+
 .align-center {
 
   text-align:center;
