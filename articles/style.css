@@ -247,6 +247,7 @@ main {
     font-size: 24px;
     line-height: 36px;
     margin-bottom:30px;
+    font-weight: bold;
 }
 .article-plan {
 
@@ -268,6 +269,7 @@ main {
 
     font-size: 18px;
     margin-bottom:20px;
+    font-weight: bold;
 }
 
 .paragraph-of-article {
@@ -568,4 +570,42 @@ footer div:last-child {
 .go-to-form a, .go-to-subjects a, .go-to-articles a {
 
     color:#4587CA;
+}
+
+.table-in-article {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.table-data {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.table-title {
+  font-weight:bold;
+  font-size:16px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+tr.no-bg {
+  background-color: transparent;
+}
+
+.cell-align {
+  text-align:center;
+}
+
+.formula {
+  text-align: center;
+  font-weight: bold;
+
 }
