@@ -70,6 +70,10 @@ table.gsc-search-box {
     font-size: 14px;
 }
 
+.gsc-input-box:read-write {
+  content: "";
+}
+
 .gsc-input-box {
 
     width:600px;

@@ -18,7 +18,7 @@ body {
 
 .header {
 
-    background-color: #7875D0;
+    background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
     color:#FFFFFF;
     height:100vh;
     padding:226px 20px 217px;
@@ -228,17 +228,17 @@ p.advantage-comment a {
 
 .price {
 
-    background:url('images/chart.png') top center no-repeat;
+    background:url('images/chart1.png') top center no-repeat;
 }
 
 .quality {
 
-    background:url('images/scale.png') top center no-repeat;
+    background:url('images/scale1.png') top center no-repeat;
 }
 
 .speed {
 
-    background:url('images/speed.png') top center no-repeat;
+    background:url('images/speed1.png') top center no-repeat;
 }
 
 .advantage-item {
@@ -247,7 +247,6 @@ p.advantage-comment a {
     line-height: 150%;
     text-align: center;
     padding-top:140px;
-    border-right:1px solid #000000;
 }
 
 .advantage-name {
