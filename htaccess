@@ -1,0 +1,5 @@
+
+RewriteOptions inherit
+
+#404 Страница не найдена
+ErrorDocument 404 http://articulus.pro/errors/404.html
