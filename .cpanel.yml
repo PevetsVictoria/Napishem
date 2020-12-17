@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export REPOPATH=/home/articulu/repositories/Articulus/*
+    - export SITEPATH=/home/articulu/public_html/
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
